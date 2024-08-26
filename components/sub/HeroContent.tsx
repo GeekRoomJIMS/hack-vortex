@@ -55,7 +55,7 @@ const HeroContent = () => {
           href="https://devfolio.co/"
           rel="noreferrer noopener"
         >
-          Apply Right Now!
+          Apply at Devfolio
         </motion.a>
       </div>
 
