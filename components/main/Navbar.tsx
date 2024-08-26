@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[1000] md:px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto md:px-[10px]">
         <a
           href="#about-me"
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+          {/* {Socials.map((social) => (
             <button key={social.name}>
               <a
                 href="https://www.instagram.com/geekroom_jims/"
@@ -53,7 +53,13 @@ const Navbar = () => {
                 />
               </a>
             </button>
-          ))}
+          ))} */}
+          <Image
+            src="/geekroomjimslogo.png"
+            width={50}
+            height={50}
+            alt="Logo"
+          />
         </div>
       </div>
     </div>

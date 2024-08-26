@@ -11,23 +11,25 @@ import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-2xl shadow-white p-[15px] border-t-2 border-t-white/30">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-3">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaInstagram />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaLinkedin />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
+            <div>
+              <div className="font-bold text-[16px]">Community</div>
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <FaInstagram />
+                <span className="text-[15px] ml-[6px]">Instagram</span>
+              </p>
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <FaLinkedin />
+                <span className="text-[15px] ml-[6px]">Linkedin</span>
+              </p>
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <RxDiscordLogo />
+                <span className="text-[15px] ml-[6px]">Discord</span>
+              </p>
+            </div>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center">

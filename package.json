@@ -11,8 +11,8 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "next": "^14.2.6",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^11.3.30",
     "maath": "^0.10.4",
     "postcss": "^8",
     "react-intersection-observer": "^9.5.2",

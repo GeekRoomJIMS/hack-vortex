@@ -247,3 +247,71 @@ export const silver_sponsors = [
 ];
 
 export const bronze_sponsors = [];
+
+export const timeline_data = [
+  {
+    date: "August 25",
+    title: "Registration",
+    descr:
+      "The official commencement of the registration process for our hackathon.",
+  },
+  {
+    date: "September 5 - 15",
+    title: "Acceptance Mails",
+    descr:
+      "During this time period, acceptance mails will be sent out to eligible participants.",
+  },
+  {
+    date: "September 5",
+    title: "Mentors Reveal",
+    descr:
+      "The mentors would be revealed on our social medias, make sure you follow us!",
+  },
+  {
+    date: "September 7",
+    title: "Judges Reveal",
+    descr:
+      "Following our mentors reveal, the judges would be on our social medias as well!",
+  },
+  {
+    date: "September 20",
+    title: "Registration End",
+    descr:
+      "The start of this day would mark the end of our hackathon's registration process.",
+  },
+  {
+    date: "September 22",
+    title: "Online Round",
+    descr:
+      "An online mentoring round would be conducted on this day to filter out participating teams for the next (offline) round.",
+  },
+  {
+    date: "September 25",
+    title: "Offline Round",
+    descr:
+      "The start of our offline, final judgement round. Good luck in advance to all the selected participants :)",
+  },
+];
+
+export const faqData = [
+  {
+    question: "How would I benefit from participating in this?",
+    answer:
+      "We get you tons of benefits! From free swags, goodies, food, beverages, to the opportunity of meeting tons of fellow talented developers and expanding your network like never before.",
+  },
+  {
+    question: "Who can participate?",
+    answer:
+      "This hackathon is open to anyone with a passion for technology and innovation. No restrictions!",
+  },
+  {
+    question: "What about the entry fee?",
+    answer:
+      "Nope, doesn't exist! We're giving you an opportunity this big, while asking nothing from you in return.",
+  },
+  {
+    question: "Do I need a team?",
+    answer:
+      "You can participate solo, but it is highly recommended to participate in a team.",
+  },
+];

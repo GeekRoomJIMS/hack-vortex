@@ -41,7 +41,11 @@ const Encryption = () => {
 
         <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
           <button className="Welcome-text text-[12px]">
-            <a href="#" target="_blank" rel="noreferrer noopener">
+            <a
+              href="https://devfolio.co/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Unlock the Ability to Push Your Limits
             </a>
           </button>
