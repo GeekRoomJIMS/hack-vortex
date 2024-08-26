@@ -45,7 +45,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-sm md:text-base text-gray-400 my-5 max-w-[600px] italic"
         >
-          Live through a thrilling competition of the best of the bestt coders
+          Live through a thrilling competition of the best of the best coders
           from around the nation, at Hack Vortex, a hybrid hackathon organized
           by GeekRoom JIMS
         </motion.p>
