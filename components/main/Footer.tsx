@@ -1,54 +1,71 @@
-import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
-
-import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { RxDiscordLogo } from "react-icons/rx";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-2xl shadow-white p-[15px] border-t-2 border-t-white/30">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full grid grid-cols-1 md:grid-cols-3">
+        <div className="w-full h-full grid grid-cols-1 md:grid-cols-3 z-[500]">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div>
               <div className="font-bold text-[16px]">Community</div>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <a
+                href="https://www.instagram.com/geekroom_jims/"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <FaInstagram />
                 <span className="text-[15px] ml-[6px]">Instagram</span>
-              </p>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              </a>
+              <a
+                href="https://www.linkedin.com/company/geekroom-jims"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <FaLinkedin />
                 <span className="text-[15px] ml-[6px]">Linkedin</span>
-              </p>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              </a>
+              {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <RxDiscordLogo />
                 <span className="text-[15px] ml-[6px]">Discord</span>
-              </p>
+              </p> */}
             </div>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center">
             <div className="font-bold text-[16px]">Past Hackathons</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://codekshetra.vercel.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <span className="text-[15px] ml-[6px]">Code Kshetra</span>
-            </p>
+            </a>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Explore More</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://chat.whatsapp.com/KGvAnrHbwyz1rhJ7hXzvLm"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <span className="text-[15px] ml-[6px]">Join Us</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=geekroomjimsrohini@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              <span className="text-[15px] ml-[6px] text-blue-200">
                 geekroomjimsrohini@gmail.com
               </span>
-            </p>
+            </a>
           </div>
         </div>
 

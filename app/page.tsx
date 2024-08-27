@@ -1,3 +1,4 @@
+import Description from "@/components/main/Description";
 import Encryption from "@/components/main/Encryption";
 import FAQs from "@/components/main/FAQs";
 import Hero from "@/components/main/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Skills />
+        <Description />
         <Timeline />
         <Encryption />
         <Projects />

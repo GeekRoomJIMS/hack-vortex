@@ -40,12 +40,16 @@ const SponsorCard = ({
             ) : (
               <ul className="grid grid-cols-2 place-items-center">
                 {sponsors?.map((sponsor, idx) => (
-                  <li className="flex gap-x-1 py-1" key={idx}>
+                  <li
+                    className="flex gap-x-1 py-1 hover:scale-125 transition-all duration-300 ease-in-out"
+                    key={idx}
+                  >
                     <Image
                       src={sponsor.image}
                       width={80}
                       height={80}
                       alt={sponsor.name}
+                      className="w-[5rem] h-[5rem] md:w-[5rem] md:h-[5rem] lg:w-[7rem] lg:h-[7rem]"
                     />
                   </li>
                 ))}
