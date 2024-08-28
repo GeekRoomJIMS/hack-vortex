@@ -66,10 +66,10 @@ const Description = () => {
 
             <div className="flex flex-col items-center gap-1">
               <h3 className="text-gray-300 tracking-wider font-semibold text-sm">
-                Online Round
+                Offline Round
               </h3>
               <p className="text-xs text-gray-500 font-medium">
-                September 22, 2024
+                September 25, 2024
               </p>
             </div>
           </div>
