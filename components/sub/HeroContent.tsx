@@ -52,10 +52,11 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://devfolio.co/"
+          target="_blank"
+          href="https://www.hackquest.io/en/hackathon/explore/Hack-Vortex"
           rel="noreferrer noopener"
         >
-          Apply at Devfolio
+          Apply at HackQuest
         </motion.a>
       </div>
 

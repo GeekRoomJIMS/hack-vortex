@@ -238,13 +238,10 @@ export const Other_skill = [
 ];
 
 export const gold_sponsors = [
-  { name: "Devfolio", image: "/sponsors/devfolio.webp" },
+  { name: "Devfolio", image: "/sponsors/hackquest.jpg" },
 ];
 
-export const silver_sponsors = [
-  { name: "Polygon", image: "/sponsors/polygon.webp" },
-  { name: "ETHIndia", image: "/sponsors/ethindia.webp" },
-];
+export const silver_sponsors = [];
 
 export const bronze_sponsors = [];
 
