@@ -241,9 +241,16 @@ export const gold_sponsors = [
   { name: "Devfolio", image: "/sponsors/hackquest.jpg" },
 ];
 
-export const silver_sponsors = [];
+export const silver_sponsors = [
+  {
+    name: "Learning While Travelling",
+    image: "/sponsors/learning-while-travelling.jpg",
+  },
+];
 
-export const bronze_sponsors = [];
+export const bronze_sponsors = [
+  { name: "Lazer Crazer", image: "/sponsors/lazer-crazer.png" },
+];
 
 export const timeline_data = [
   {
