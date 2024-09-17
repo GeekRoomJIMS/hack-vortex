@@ -324,3 +324,38 @@ export const faqData = [
       "You can participate solo, but it is highly recommended to participate in a team.",
   },
 ];
+
+export const judges = [
+  {
+    image: "/judges/DishaLuthra.jpeg",
+    name: "Disha Luthra",
+    position: "Project Management @ Google",
+    description:
+      "Meet our judge, Disha Luthra, who is an ex-software engineer, and current Product Manager @ Google, and has been a judge for multiple hackathons.",
+    linkedin: "https://www.linkedin.com/in/disha-luthra/",
+  },
+  {
+    image: "/judges/MohammadMudassir.jpeg",
+    name: "Mohammad Mudassir",
+    position: "Support Engineer @ Algorand Foundation",
+    description:
+      "Meet our judge, Mohammad Mudassir, who is a Support Engineer @ Algorand Foundation, whose expertise shines in the field of blockchain.",
+    linkedin: "https://www.linkedin.com/in/mohammad-mudassir-b788a41ab/",
+  },
+  {
+    image: "/judges/PiyushKhurana.jpeg",
+    name: "Piyush Khurana",
+    position: "SDE-1 @ Mobikwik",
+    description:
+      "Meet our judge, Piyush Khurana, who is an SDE-1 @ Mobikwik, and brings his knowledge of FinTech and software solutions, and a high experience of judging at previous events.",
+    linkedin: "https://www.linkedin.com/in/piyush-khurana-dev/",
+  },
+  {
+    image: "/judges/ShivamGoyal.jpeg",
+    name: "Shivam Goyal",
+    position: "SDE-2 @ Junglee Games",
+    description:
+      "Meet our judge, Shivam Goyal, who is an SDE-2 @ JungleeGames, and brings his rich experience of accessible software solutions and judging.",
+    linkedin: "https://www.linkedin.com/in/shivamgoyall/",
+  },
+];
