@@ -49,7 +49,7 @@ const SponsorCard = ({
                       width={80}
                       height={80}
                       alt={sponsor.name}
-                      className="w-[5rem] h-[5rem] md:w-[5rem] md:h-[5rem] lg:w-[7rem] lg:h-[7rem]"
+                      className="w-[5rem] h-[5rem] md:w-[6rem] lg:w-[8rem] lg:h-[7rem]"
                     />
                   </li>
                 ))}

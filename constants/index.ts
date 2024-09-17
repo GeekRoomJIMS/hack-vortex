@@ -246,10 +246,15 @@ export const silver_sponsors = [
     name: "Learning While Travelling",
     image: "/sponsors/learning-while-travelling.jpg",
   },
+  {
+    name: "Interview Buddy",
+    image: "/sponsors/interview-buddy.png",
+  },
 ];
 
 export const bronze_sponsors = [
   { name: "Lazer Crazer", image: "/sponsors/lazer-crazer.png" },
+  { name: "Niia 512", image: "/sponsors/niia-512.png" },
 ];
 
 export const timeline_data = [
