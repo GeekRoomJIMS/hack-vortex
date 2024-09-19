@@ -13,7 +13,7 @@ const Judges = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Our Judges
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-5 px-4">
         {judges.map((judge, idx) => (
           <div key={idx}>
             <div
@@ -22,8 +22,8 @@ const Judges = () => {
                 backgroundImage: `url(${judge.image})`,
               }}
             >
-              <div className="team__text">
-                <div className="team__title">
+              <div className="team__text group">
+                <div className="team__title bg-gradient-to-b from-transparent to-black group-hover:to-transparent">
                   <h4>{judge.name}</h4>
                   <span>{judge.position}</span>
                 </div>

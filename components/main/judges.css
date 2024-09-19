@@ -38,11 +38,12 @@
 
 .team__item:hover .team__text {
   top: 0;
+  padding: 6px;
 }
 
 .team__item:hover .team__text .team__title {
   border-bottom: 1px solid rgba(183, 183, 183, 0.2);
-  padding: 0 0 26px;
+  padding: 26px 12px;
   margin-bottom: 26px;
   opacity: 0;
   visibility: hidden;
@@ -74,17 +75,19 @@
   height: 100%;
   top: 361px;
   position: relative;
-  padding: 35px 30px 30px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .team__text .team__title {
-  border-bottom: 1px solid rgba(183, 183, 183, 0.2);
-  padding: 0 0 26px;
-  margin-bottom: 26px;
+  padding: 26px 12px;
+  /* margin-bottom: 26px; */
   position: relative;
+}
+
+.team__text:hover .team__title {
+  padding: 26px 12px;
 }
 
 .team__text .team__title h4 {
@@ -94,12 +97,13 @@
   font-size: 2rem;
 }
 .team__text .team__title span {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: #ddd;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
+  text-transform: uppercase;
 }
 
 .team__text p {
@@ -143,10 +147,7 @@
 }
 
 @media (max-width: 768px) {
-  .team__item {
-    height: 350px;
-  }
-  .team__text {
-    padding: 25px 20px 20px;
+  .team__text p {
+    font-size: 12px;
   }
 }
