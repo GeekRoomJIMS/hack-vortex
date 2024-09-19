@@ -331,7 +331,7 @@ export const judges = [
     name: "Disha Luthra",
     position: "Project Management @ Google",
     description:
-      "Meet our judge, Disha Luthra, who is an ex-software engineer, and current Product Manager @ Google, and has been a judge for multiple hackathons.",
+      "Meet our judge, Disha Luthra, who is an ex-software engineer, and current Product Management @ Google, and has been a judge for multiple hackathons.",
     linkedin: "https://www.linkedin.com/in/disha-luthra/",
   },
   {

@@ -91,10 +91,11 @@
   color: #fff;
   font-weight: 700;
   margin-bottom: 6px;
+  font-size: 2rem;
 }
 .team__text .team__title span {
   font-size: 1.1rem;
-  color: #000;
+  color: #ddd;
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 4px;
