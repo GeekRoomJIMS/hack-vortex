@@ -243,10 +243,6 @@ export const gold_sponsors = [
 
 export const silver_sponsors = [
   {
-    name: "Learning While Travelling",
-    image: "/sponsors/learning-while-travelling.jpg",
-  },
-  {
     name: "Interview Buddy",
     image: "/sponsors/interview-buddy.png",
   },
